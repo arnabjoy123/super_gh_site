@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar  -->
+
+    <nav id="home">
+      <div class="nav-header">
+        <h1>GH Clan website</h1>
+      </div>
+
+      <ul class="links">
+        <li><a href="#home" class="scroll-link">Home</a></li>
+        <li><a href="#ourplay" class="scroll-link">Our Players</a></li>
+        <li><a href="#faq" class="scroll-link">FAQs</a></li>
+        <li><a href="#ourvis" class="scroll-link">Our Vision</a></li>
+      </ul>
+    </nav>
+
+    <!-- Video -->
+    <div id="home" class="video">
+      <header>
+        <video class="video-container" muted autoplay loop>
+          <source
+            src="RIOT 103 VAL Progression 1920x1080 ESRB.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <h1 class="video-header">GH CLAN PORTAL</h1>
+      </header>
+    </div>
+
+    <!-- Review slider  -->
+
+    <div class="reviews">
+      <h1 id="ourplay">Our Players</h1>
+      <div class="players">
+        <div class="image-container">
+          <img class="player-img" src="IMG-20240413-WA0007.jpg" />
+        </div>
+        <h3 id="playerbabu"></h3>
+        <p id="role"></p>
+        <p id="info"></p>
+        <div id="button-container">
+          <button class="button-36 prev">Previous</button>
+          <button class="button-36 next">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- accordion -->
+
+    <div class="Accordion">
+      <h1 id="faq">FAQS</h1>
+      <div class="item-container">
+        <div data-target-id="1" class="question-container">
+          <p class="question">Our motto</p>
+          <span>+</span>
+        </div>
+
+        <p data-target-id="1" class="text-container not-active">
+          Maine site A kabhi itna khali nahi dekha ~ Colonel
+        </p>
+      </div>
+
+      <div class="item-container">
+        <div data-target-id="2" class="question-container">
+          <p class="question">What are your hobbies apart from gaming?</p>
+          <span>+</span>
+        </div>
+
+        <p data-target-id="2" class="text-container not-active">
+          Sexism, racism, stateism, discrimination based on religion and
+          ethnicity
+        </p>
+      </div>
+
+      <div class="item-container">
+        <div data-target-id="3" class="question-container">
+          <p class="question">How much do we earn?</p>
+          <span>+</span>
+        </div>
+
+        <p data-target-id="3" class="text-container not-active">
+          Enough to collectively take down India's GDP by 5%.
+        </p>
+      </div>
+
+      <div class="item-container">
+        <div data-target-id="4" class="question-container">
+          <p class="question">
+            Do we think we can beat the likes of Ninja and Shroud
+          </p>
+          <span>+</span>
+        </div>
+
+        <p data-target-id="4" class="text-container not-active">
+          Absolutely. Vaibhav wil just sit on them(with optimum usage of ass)
+          and they will die.
+        </p>
+      </div>
+    </div>
+
+    <!-- tab -->
+
+    <div class="tabs">
+      <h1 id="ourvis">Our Vision</h1>
+      <p>Something something</p>
+
+      <div class="tabs-container">
+        <img class="tab-img" src="rsg_gtaonline_screenshot_024.jpg" />
+        <div class="buttonsandp">
+          <div class="buttons-container">
+            <button data-target-id="1" class="tab-button">History</button>
+            <button data-target-id="2" class="tab-button">Achievements</button>
+            <button data-target-id="3" class="tab-button">Allegations</button>
+          </div>
+
+          <div id="content-container">
+            <p data-target-id="1" class="tab-content aactive">
+              Formed in 2020 with just two members in the beginning, Gh clan has
+              grqon to become an organization of 7(mainly 5), which is a huge
+              increase in members. We have faced a lot of
+              problems(self-inflicted) and solved them together during periods
+              of difficulty(Vaibhav's internet issues, Uncle's hand, Ass damage
+              etc)
+            </p>
+            <p data-target-id="2" class="tab-content">
+              We have achieved quite a few achievements. One of the achievements
+              which we achieved is collectively buying The forest just to never
+              play it again( we did play but only a few times). Taught shawn how
+              to abuse and not use fudge everytime. Robin ka laptop uske papa se
+              chhinwa lena
+            </p>
+            <p data-target-id="3" class="tab-content">
+              Allegations of racism, sexism is rampant in gh clan. But most of
+              these are false because we ourselves believe in inclusivity and
+              diversity and have a fellow lesbian(Vaibhav), Naveen
+              patnaik(Naman), idli(Robin), Bong whores(Aditya and Arnab) and
+              Archisman(Archisman),Robin-sexual(Shreyansh)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- image slides -->
+
+    <div class="slider-container">
+      <div class="slide">
+        <img src="img1.jpg" class="slide-img" alt="" />
+      </div>
+      <div class="slide">
+        <img src="img2.jpeg" class="slide-img" alt="" />
+      </div>
+      <div class="slide">
+        <img src="img3.jpg" class="slide-img" alt="" />
+      </div>
+      <div class="slide">
+        <img src="img4.jpg" class="slide-img" alt="" />
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <button type="button" class="button-36 prevBtn">Prev</button>
+      <button type="button" class="button-36 nextBtn">Next</button>
+    </div>
+
+    <footer>footer</footer>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/db680a8c77.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

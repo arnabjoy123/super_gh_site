@@ -1,0 +1,388 @@
+
+html{
+  scroll-behavior: smooth;
+
+}
+body{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+
+  
+
+
+  background-image: url("istockphoto-1200128505-170667a.png");
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed when scrolling */
+  color: white;
+
+}
+/* button css */
+
+
+/* CSS */
+.button-36{
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36{
+    padding: 0 2.6rem;
+  }
+}
+
+
+
+
+
+
+/*navbar*/
+
+nav{
+
+
+
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+
+.fixed-nav {
+
+
+
+  position: fixed;
+
+  /* width: 100%;
+  
+  right: 0px;
+   */
+
+   top: 0px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 6px 18px rgb(0, 0, 0);
+}
+
+
+ul{
+
+    text-decoration: none;
+
+    display: flex;
+    list-style: none;
+    flex:0.5;
+    justify-content: space-around;
+}
+
+li{
+
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* video*/
+
+.video-container{
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-header{
+
+    position: absolute;
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+}
+
+header{
+    
+    display: grid;
+    place-items: center;
+    content: "";
+    top: 0%;
+    left: 0%;
+    position: relatives;
+    z-index: -2;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+
+/*review slider*/
+
+.player-img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+
+    border: 15px double rgb(20, 114, 222);
+    
+}
+
+
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players{
+  /* height: 500px; */
+  border: 15px double rgb(20, 114, 222);
+border-radius: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+
+
+#info{
+  margin: 8px;
+    width: 300px;
+}
+
+
+/* Accordion */
+.Accordion{
+  user-select: none;
+  margin-top: 100px;
+}
+
+.Accordion h1{
+  display: flex;
+  justify-content: center;
+}
+
+.item-container{
+  border: 3px solid rgb(20, 114, 222);
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 60%;
+  padding: 10px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.question-container{
+  border: 3px solid rgb(20, 114, 222);
+  border-radius: 9px;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.text-container{
+  border: 3px solid rgb(20, 114, 222);
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.not-active{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+
+
+
+/*Slider*/
+
+.slider-container {
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    border-radius: 9px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    height: 70vh;
+
+  }
+  .slide {
+    transition: all 0.25s ease-in-out;
+    height: auto;
+    width: 100%;
+    position: absolute;
+  }
+
+  .slide-img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.75rem;
+  }
+
+
+  /* .slide:nth-child(1){
+    left: 0;
+  }
+  .slide:nth-child(2){
+    left: 100%
+  }
+  .slide:nth-child(3){
+    left: 200%
+  }
+  .slide:nth-child(4){
+    left: 300%
+  }
+
+  .slide{
+    transform: translateX(-200%);
+  } */
+
+
+
+  /* tab */
+
+.tabs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  .tabs-container{
+    display: flex;
+  }
+
+  .tab-img{
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 45%;
+    margin: 40px;
+  }
+
+  .buttonsandp{
+    
+    
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    margin: 40px;
+    width: 45%;
+    background-color: wheat;
+    
+  }
+
+
+.buttons-container{
+
+
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#content-container{
+  position: relative;
+}
+
+.tab-content{
+  padding: 10px;
+  display: none;
+}
+
+.aactive{
+
+  position: absolute;
+  background-color: wheat;
+  display: block;
+  color: black;
+}
+
+.tab-button{
+  
+  
+
+
+  width: 32.15%;
+  background-color: white;
+  padding: 6px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 0px;
+  
+}
+
+.tab-button:nth-child(1){
+  background-color: wheat;
+}
